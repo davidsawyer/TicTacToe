@@ -2,10 +2,14 @@ Tic-tac-toe
 
 Authors: Jon Durden and David Sawyer
 
+*Special thanks to Zach Avery for discovering a few vulnerabilities in the cutthroat player*
 
 This program is a Tic-tac-toe game. There are four different types of players: a human (that's you!),
-a naive computer, a random computer, and a cutthroat computer. In order to run the program, you must
-first compile it. While in the directory containing the program files, type
+a naive computer, a random computer, and a cutthroat computer. 
+
+OPTION 1 ---------------------------------------------------------------------------------------------
+
+To compile and run... While in the directory containing the program files, type
 
 javac TicTacToe.java
 
@@ -13,6 +17,16 @@ Now to run the program, you must include 2 command line parameters, they may be 
 these four words: human, naive, random, or cutthroat. To run the program, type
 
 java TicTacToe <X player> <O player>
+
+OPTION 2 ---------------------------------------------------------------------------------------------
+
+To compile and run... You must include 2 command line parameters, they may be any permutation of
+these four words: human, naive, random, or cutthroat.
+
+While in the directory containing the program files, type
+
+java -jar TicTacToe.jar <X player> <O player>
+------------------------------------------------------------------------------------------------------
 
 The first command line parameter will always be the X's in the game and will always go first. Feel
 free to pit the computer players against one another to see how they do, or you may also do a human
